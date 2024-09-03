@@ -1,8 +1,8 @@
-﻿namespace TestAppTestLibrary;
+﻿namespace TestLibrary;
 
 public static class AppHostBuilderExtensions
 {
-	public static MauiAppBuilder UseDigitalProduction(this MauiAppBuilder builder)
+	public static MauiAppBuilder UseTestLibrary(this MauiAppBuilder builder)
 	{
 
 		builder.Services.AddSingleton<TestLibrary.Resources.Styles.LibraryColors>();
