@@ -1,12 +1,11 @@
-﻿namespace TestApp
-{
-	public partial class App : Application
-	{
-		public App()
-		{
-			InitializeComponent();
+﻿namespace TestApp;
 
-			MainPage = new AppShell();
-		}
+public partial class App : Application
+{
+	public App()
+	{
+		InitializeComponent();
+
+		MainPage = new AppShell();
 	}
 }
