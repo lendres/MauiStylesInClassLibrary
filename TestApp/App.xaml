@@ -1,0 +1,19 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:library="clr-namespace:TestLibrary.Resources.Styles;assembly=TestLibrary"
+	xmlns:local="clr-namespace:TestApp"
+	x:Class="TestApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+				<library:LibraryColors/>
+				<ResourceDictionary x:Class="TestLibrary.Resources.Styles.LibraryColors"/>
+				<ResourceDictionary Source="Resources/Styles/LibraryColors.xaml;assembly=TestLibrary" />
+				<ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
