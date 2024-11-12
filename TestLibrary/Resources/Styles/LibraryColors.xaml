@@ -6,5 +6,6 @@
 	x:Class="TestLibrary.Resources.Styles.LibraryColors">
 
 	<Color x:Key="LibraryPrimary">#77FF55</Color>
+	<Color x:Key="LibrarySecondary">#FF33FF</Color>
 
 </ResourceDictionary>

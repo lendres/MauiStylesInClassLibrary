@@ -33,11 +33,17 @@
 	  <Compile Update="Resources\Styles\LibraryColors.xaml.cs">
 	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
+	  <Compile Update="Resources\Styles\LibraryStyles.xaml.cs">
+	    <DependentUpon>LibraryStyles.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 
 	<ItemGroup>
 	  <MauiXaml Update="Resources\Styles\LibraryColors.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\LibraryStyles.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
