@@ -9,8 +9,6 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
 				<library:LibraryColors/>
-				<ResourceDictionary x:Class="TestLibrary.Resources.Styles.LibraryColors"/>
-				<ResourceDictionary Source="Resources/Styles/LibraryColors.xaml;assembly=TestLibrary" />
 				<ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
